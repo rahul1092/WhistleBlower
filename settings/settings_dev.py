@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'whistle_blower'
 ]
 
 MIDDLEWARE = [
@@ -76,6 +77,9 @@ WSGI_APPLICATION = 'whistle_blower.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'whistle',
+        'USER': 'whistleb',
+        'PASSWORD': 'ibdjibwji@12u09#bxbwjk&*()'
     }
 }
 

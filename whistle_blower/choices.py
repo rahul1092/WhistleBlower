@@ -1,0 +1,7 @@
+USER_INACTIVE = 0
+USER_ACTIVE = 1
+
+USER_STATUSES = (
+    (USER_INACTIVE, 'Inactive'),
+    (USER_ACTIVE, 'Active'),
+)
